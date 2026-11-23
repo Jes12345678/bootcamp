@@ -1,0 +1,46 @@
+/* Centra la tarjeta completa en medio de la pantalla */
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 600px;           
+    height: auto;           /* Eliminamos el 100vh repetido */
+    border-radius: 8px;
+    border: solid red;      /* (Lo puedes quitar cuando termines de diseñar) */
+    background-color: white; /* El fondo de la tarjeta principal suele ser blanco */
+    padding: 24px;         
+    gap: 24px;              /* Espacio automático entre la imagen y la descripción */
+    overflow: hidden;       
+} 
+
+.imagen img {
+    border-radius: 8px;
+    display: block;
+    width: 100%;            /* Para que la imagen respete el espacio de su columna */
+}
+
+.descripcion {
+    background-color: white;
+}
+
+button {
+    background-color: hsl(158, 42%, 18%);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 100%;            /* Para que el botón ocupe todo el ancho de la columna de texto */
+    margin-top: 20px;
+    padding: 16px;
+    cursor: pointer;
+}

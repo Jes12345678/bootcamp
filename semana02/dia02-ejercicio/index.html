@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact form</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  
+<main class="contact-form">
+  <h1>Contact Us</h1>
+
+  <form>
+    <div clas="row">
+      First name
+      <input type="text" name="first_name">
+
+      Last name
+      <input type="text" name="last_name">
+    </div>
+
+    <label>
+      Email adress
+      <input type="text" name="email">
+    </label>
+
+    <div>
+      Query type
+      <div clas="row">
+
+        General Enquiry
+        <label>
+          <input type="radio" name="query_type">
+        </label>
+        Suport Request
+        <label>
+          <input type="radio" name="query_type">
+        </label>
+
+      </div>
+    </div>
+
+    <label>
+      Message
+      <textarea name="Message"></textarea>
+    </label>
+
+    <label>
+      <input type="checkbox" name="consent">
+      I consent to being contacted by the team
+    </label>
+
+    <input type="text" value="Submit">
+
+  </form>
+</main>
+
+</body>
+</html>

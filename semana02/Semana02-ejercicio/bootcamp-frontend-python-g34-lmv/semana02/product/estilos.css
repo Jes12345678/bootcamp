@@ -1,0 +1,45 @@
+/* Centra la tarjeta completa en medio de la pantalla */
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 600px;           
+    height: auto;          
+    border-radius: 8px;   
+    background-color: white; 
+    padding: 24px;        
+    gap: 24px;              
+    overflow: hidden;   
+    
+}
+
+.imagen img {
+    border-radius: 8px;
+    width: 100%; 
+    padding-top: 0;            
+}
+
+.descripcion {
+    background-color: white;   
+}
+
+button {
+    background-color: hsl(158, 42%, 18%);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 100%;            
+    margin-top: 20px;
+    padding: 16px;
+    cursor: pointer;
+}
